@@ -1,0 +1,7 @@
+type: OreBlock
+itemDrop: raw-iron
+variants: 2
+oreDefault: true
+oreThreshold: 0.88
+oreScale: 23
+

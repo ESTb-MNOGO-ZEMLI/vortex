@@ -1,0 +1,27 @@
+{
+  "type": "flying",
+  "name": "tu-1a",
+  "description": "fast",
+  "speed": 0.6,
+  "hitPoints": 250,
+  "armor": 1,
+  "itemCapacity": 30,
+  "outlineColor": "2d2f39",
+  "weapons": [
+    {
+      "name": "small-weapon",
+      "reload": 15,
+      "x": 0,
+      "y": 2,
+      "top": false,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 12,
+        "speed": 4,
+        "lifetime": 60,
+        "width": 7,
+        "height": 9
+      }
+    }
+  ]
+}

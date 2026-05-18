@@ -1,0 +1,21 @@
+type: GenericCrafter
+name: "stove"
+description: "Простая печь. Выпускает дым при работе."
+size: 2
+hasItems: true
+craftTime: 90
+consumes: {
+  items: [
+    raw-iron/2
+    coal/1
+  ]
+}
+outputItem: iron/1
+requirements: [
+  copper/50
+  lead/30
+]
+category: crafting
+craftEffect: smeltsmoke
+updateEffect: smoke
+updateEffectChance: 0.05

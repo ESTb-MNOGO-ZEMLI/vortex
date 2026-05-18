@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: "cartridge collector"
+description: "."
+size: 2
+hasItems: true
+craftTime: 340
+consumes: {
+  items: [
+    iron/70
+    silicon/50
+  ]
+}
+
+outputItem: iron projectile/1
+
+requirements: [
+  iron/50
+  lead/20
+]
+
+category: crafting
+
+// --- ЭФФЕКТЫ ДЫМА ---
+
+// Эффект при окончании переплавки (большой выброс дыма)
+craftEffect: steam
+
+// Эффект во время работы (постоянный дымок)
+updateEffect: smoke
+updateEffectChance: 0.05 

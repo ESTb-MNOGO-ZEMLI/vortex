@@ -1,0 +1,10 @@
+type: material
+name: steel
+description:
+color: #303030
+explosiveness: 0
+flammability: 0 
+radioactivity: 0.0
+charge: 0
+hardness: 3
+cost: 2

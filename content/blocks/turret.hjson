@@ -1,0 +1,32 @@
+{
+type: ItemTurret
+name: "turret"
+size: 2
+health: 760
+range: 600
+reload:240
+requirements: [
+  graphite/500
+  iron/360
+]
+ammoTypes: {
+  "iron": {
+    speed: 7
+    damage: 230
+    width: 18
+    height:20
+   }
+  "iron projectile": {
+  speed: 10
+  damage: 300
+  width: 19
+  height: 30
+  
+  }
+}
+drawer: {
+  type: DrawTurret
+  y: 4
+}
+category:turret
+} 

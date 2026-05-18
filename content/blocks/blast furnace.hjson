@@ -1,0 +1,22 @@
+type: GeneriCrafter
+name: blast furnace
+description: nety
+seze:2
+hasItems: true
+hasPower: true
+craftTime: 140
+consumes: {
+  power: 3
+  items: [
+    iron/1
+    coal/2
+  ]
+}
+outputItem: steel/1
+requirements: [
+  iron/120
+]
+category: crafting
+craftEffect: smeltsmoke
+updateEffect: smoke
+updateEffectChance: 0.05
