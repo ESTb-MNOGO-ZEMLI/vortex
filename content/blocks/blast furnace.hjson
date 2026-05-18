@@ -1,7 +1,7 @@
-type: GeneriCrafter
-name: blast furnace
+type: GenericCrafter
+name: "blast furnace"
 description: nety
-seze:2
+size: 2
 hasItems: true
 hasPower: true
 craftTime: 140
