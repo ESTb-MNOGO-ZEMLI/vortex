@@ -1,0 +1,1 @@
+Hello everyone, this is my first mod and I had almost no experience with programming before, but now I'm interested in developing a mod for the game Mindustry. I'd be very happy if you could give me some recommendations.
